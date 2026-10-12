@@ -1,0 +1,25 @@
+# Foundry build artefacts
+out/
+cache/
+broadcast/
+
+# Scratch space for local checks (deleted before verification)
+test/scratch/
+
+# Local secrets, editor and agent state
+.env
+.env.*
+.idea
+.vscode
+.mcp.json
+.claude/
+
+# Shell files mounted into the worker sandbox (device nodes, not sources)
+.bash_profile
+.bashrc
+.gitconfig
+.gitmodules
+.profile
+.ripgreprc
+.zprofile
+.zshrc
